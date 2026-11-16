@@ -1,0 +1,12 @@
+[
+ "Explain the difference between authentication and authorization in a web application.",
+ "Write a Python function that returns the factorial of a non-negative integer and explain its time complexity.",
+ "What is the purpose of an index in a relational database? Give one advantage and one trade-off.",
+ "Describe how an HTTP request travels from a browser to a backend API and back.",
+ "Explain the difference between a process and a thread.",
+ "A service returns HTTP 429. What does it mean and how should a client respond?",
+ "Give a practical example of a race condition and one way to prevent it.",
+ "Explain precision, recall, and F1 score using a binary classification example.",
+ "What is the role of a message queue in a distributed system?",
+ "Summarize three security practices for storing and using API keys."
+]
