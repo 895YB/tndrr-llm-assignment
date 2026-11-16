@@ -1,0 +1,17 @@
+[
+ {"id":"q01","question":"What kind of protocol is HTTP, and at what layer does it operate?","anchor":"stateless application-level protocol"},
+ {"id":"q02","question":"What identifies a resource in HTTP?","anchor":"Uniform Resource Identifier"},
+ {"id":"q03","question":"What does a request method indicate?","anchor":"request method"},
+ {"id":"q04","question":"What does an HTTP status code communicate?","anchor":"status code"},
+ {"id":"q05","question":"What does the 1xx status-code class mean?","anchor":"Informational 1xx"},
+ {"id":"q06","question":"What does the 2xx status-code class indicate?","anchor":"Successful 2xx"},
+ {"id":"q07","question":"What is the meaning of the 3xx status-code class?","anchor":"Redirection 3xx"},
+ {"id":"q08","question":"What does the 4xx status-code class indicate?","anchor":"Client Error 4xx"},
+ {"id":"q09","question":"What does the 5xx status-code class indicate?","anchor":"Server Error 5xx"},
+ {"id":"q10","question":"What does it mean for an HTTP method to be safe?","anchor":"safe methods"},
+ {"id":"q11","question":"What does idempotent mean for an HTTP method?","anchor":"idempotent methods"},
+ {"id":"q12","question":"What is the purpose of the GET method?","anchor":"The GET method"},
+ {"id":"q13","question":"What is the purpose of the HEAD method?","anchor":"The HEAD method"},
+ {"id":"q14","question":"What is the purpose of the POST method?","anchor":"The POST method"},
+ {"id":"q15","question":"What information does the Content-Length field convey?","anchor":"Content-Length"}
+]
