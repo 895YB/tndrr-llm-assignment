@@ -1,0 +1,125 @@
+[
+  {
+    "id": "q01",
+    "question": "What kind of protocol is HTTP, and at what layer does it operate?",
+    "anchor": "stateless application-level protocol",
+    "gold_pages": [
+      1
+    ]
+  },
+  {
+    "id": "q02",
+    "question": "What identifies a resource in HTTP?",
+    "anchor": "Uniform Resource Identifiers (URIs) are used throughout HTTP as the means for identifying resources",
+    "gold_pages": [
+      23
+    ]
+  },
+  {
+    "id": "q03",
+    "question": "What does the request method token indicate?",
+    "anchor": "request method token is the primary source of request semantics",
+    "gold_pages": [
+      71
+    ]
+  },
+  {
+    "id": "q04",
+    "question": "What does an HTTP status code communicate?",
+    "anchor": "status code of a response is a three-digit integer code",
+    "gold_pages": [
+      125
+    ]
+  },
+  {
+    "id": "q05",
+    "question": "What does the 1xx status-code class mean?",
+    "anchor": "1xx (Informational) class of status code indicates an interim response",
+    "gold_pages": [
+      126
+    ]
+  },
+  {
+    "id": "q06",
+    "question": "What does the 2xx status-code class indicate?",
+    "anchor": "2xx (Successful) class of status code indicates",
+    "gold_pages": [
+      127
+    ]
+  },
+  {
+    "id": "q07",
+    "question": "What is the meaning of the 3xx status-code class?",
+    "anchor": "3xx (Redirection) class of status code indicates",
+    "gold_pages": [
+      132
+    ]
+  },
+  {
+    "id": "q08",
+    "question": "What does the 4xx status-code class indicate?",
+    "anchor": "4xx (Client Error) class of status code indicates",
+    "gold_pages": [
+      137
+    ]
+  },
+  {
+    "id": "q09",
+    "question": "What does the 5xx status-code class indicate?",
+    "anchor": "5xx (Server Error) class of status code indicates",
+    "gold_pages": [
+      142
+    ]
+  },
+  {
+    "id": "q10",
+    "question": "What does it mean for an HTTP method to be safe?",
+    "anchor": "Request methods are considered \"safe\" if their defined semantics are essentially read-only",
+    "gold_pages": [
+      72
+    ]
+  },
+  {
+    "id": "q11",
+    "question": "What does idempotent mean for an HTTP method?",
+    "anchor": "A request method is considered \"idempotent\"",
+    "gold_pages": [
+      73
+    ]
+  },
+  {
+    "id": "q12",
+    "question": "What is the purpose of the GET method?",
+    "anchor": "The GET method requests transfer of a current selected representation",
+    "gold_pages": [
+      74
+    ]
+  },
+  {
+    "id": "q13",
+    "question": "What is the purpose of the HEAD method?",
+    "anchor": "The HEAD method",
+    "gold_pages": [
+      41,
+      75,
+      114,
+      134
+    ]
+  },
+  {
+    "id": "q14",
+    "question": "What is the purpose of the POST method?",
+    "anchor": "The POST method requests that the target resource process the representation enclosed",
+    "gold_pages": [
+      76
+    ]
+  },
+  {
+    "id": "q15",
+    "question": "What information does the Content-Length field convey?",
+    "anchor": "The \"Content-Length\" header field indicates the associated representation",
+    "gold_pages": [
+      62
+    ]
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "256": {
+    "chunk_words": 256,
+    "overlap_words": 64,
+    "questions": 15,
+    "recall_at_5": 0.7333333333333333,
+    "chunks": 465
+  },
+  "512": {
+    "chunk_words": 512,
+    "overlap_words": 64,
+    "questions": 15,
+    "recall_at_5": 0.6,
+    "chunks": 244
+  }
+}
