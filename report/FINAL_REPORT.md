@@ -104,6 +104,13 @@ The 256-word setting performed 13.33 percentage points better on this question s
 - **KV cache:** during autoregressive generation, attention key and value tensors from prior tokens are retained so the model can process the next token without recomputing the full preceding context. KV cache memory grows with concurrent sequences, sequence length, number of transformer layers, key/value heads, head dimension and cache precision. Weight quantization does not automatically quantize the KV cache.
 - **Quantization trade-off:** NF4 represents model weights using four bits, with additional scales/metadata and FP16 compute in this configuration. In this run it reduced peak allocated CUDA memory from 1.008 GB to 0.553 GB (about 45.1% lower), while aggregate generation throughput decreased from 32.68 to 23.77 tokens/sec (about 27.3% lower). The benchmark did not calculate a formal output-quality score.
 - **20 concurrent users on a 24 GB GPU:** estimator output for 20 users, 2,048 context tokens, 512 generated tokens per user, 2,560-token sequence length:
+- KV cache estimate: 0.63 GB.
+- 4-bit model weights estimate: 0.30 GB for a 0.5B parameter model.
+- Runtime and memory fragmentation planning buffer: 4.00 GB.
+- Estimated planning total: 4.93 GB out of 24 GB GPU memory.
+- Estimated memory headroom: 19.07 GB.
+
+This is a theoretical memory estimate, not a confirmed serving-capacity result. A representative 20-client load test was not performed. Therefore, this estimate does not guarantee reliable serving for 20 concurrent users.
 
 ```text
 Assumptions: 4-bit model weights with 20% quantization metadata allowance; FP16 KV cache;
