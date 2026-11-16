@@ -42,6 +42,7 @@ def main():
  dtype=torch.float16 if torch.cuda.is_available() else torch.float32
  model=AutoModelForCausalLM.from_pretrained(a.model,torch_dtype=dtype,device_map="auto" if torch.cuda.is_available() else None)
  model.config.use_cache=False
+ if hasattr(model,"enable_input_require_grads"): model.enable_input_require_grads()
  cfg=LoraConfig(task_type=TaskType.CAUSAL_LM,r=a.r,lora_alpha=a.alpha,lora_dropout=0.05,target_modules=["q_proj","v_proj"],bias="none")
  model=get_peft_model(model,cfg); model.print_trainable_parameters()
  ds=IntentDataset(rows,tok)
