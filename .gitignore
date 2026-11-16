@@ -4,6 +4,5 @@ __pycache__/
 task-1-finetuning/data/
 task-1-finetuning/outputs/
 task-2-rag/data/
-task-3-local-llm/results/
 *.safetensors
 *.bin
