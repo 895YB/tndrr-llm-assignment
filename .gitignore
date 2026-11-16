@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.py[cod]
+task-1-finetuning/data/
+task-1-finetuning/outputs/
+task-1-finetuning/results/
+task-2-rag/data/
+task-2-rag/results/
+task-3-local-llm/results/
+*.safetensors
+*.bin
