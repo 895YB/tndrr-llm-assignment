@@ -20,7 +20,7 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
-Follow each task README. Models and the public source document download on first run. Record GPU, driver, versions, precision, sequence length, batch size, and runtime.
+Run `python validate_project.py` for a no-GPU syntax / manifest / split check. See [COLAB_RUNBOOK.md](COLAB_RUNBOOK.md) for end-to-end execution on a Colab GPU. Follow each task README. Models and the public source document download on first run. Record GPU, driver, versions, precision, sequence length, batch size, and runtime.
 
 ## Reproducibility and integrity
 The fine-tuning data uses a deterministic split. RAG questions include reference source text for retrieval evaluation. Scripts print/save actual metrics. Do not report placeholder values as experimental measurements. This repository supplies reproducible code; the final report must be completed after experiments on the target hardware.
