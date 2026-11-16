@@ -1,0 +1,26 @@
+{
+  "fp16": {
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "prompts": 10,
+    "total_generated_tokens": 1280,
+    "total_generation_seconds": 39.166372403000196,
+    "aggregate_tokens_per_second": 32.68109660066323,
+    "mean_prompt_tokens_per_second": 33.23210338435968,
+    "median_prompt_latency_seconds": 3.7894812780000393,
+    "model_load_seconds": 5.8817879620000895,
+    "peak_cuda_allocated_GB": 1.008096256,
+    "peak_cuda_reserved_GB": 1.025507328
+  },
+  "4bit": {
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "prompts": 10,
+    "total_generated_tokens": 1274,
+    "total_generation_seconds": 53.60357961499949,
+    "aggregate_tokens_per_second": 23.767069459732614,
+    "mean_prompt_tokens_per_second": 23.826239638079578,
+    "median_prompt_latency_seconds": 5.402915398999994,
+    "model_load_seconds": 2.457993062000014,
+    "peak_cuda_allocated_GB": 0.553257472,
+    "peak_cuda_reserved_GB": 1.021313024
+  }
+}
