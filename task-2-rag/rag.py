@@ -10,7 +10,7 @@ import torch
 PDF_URL="https://www.rfc-editor.org/rfc/rfc9110.pdf"
 EMBED_MODEL="sentence-transformers/all-MiniLM-L6-v2"
 LLM_MODEL="Qwen/Qwen2.5-0.5B-Instruct"
-def norm(s): return re.sub(r"\s+"," ",s).strip().lower()
+def norm(s): return re.sub(r"\s+"," ",re.sub(r"[^a-z0-9]+"," ",s.lower())).strip()
 def download_pdf(path):
  path.parent.mkdir(parents=True,exist_ok=True)
  if not path.exists():
