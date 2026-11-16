@@ -1,0 +1,16 @@
+{
+  "base": {
+    "n": 60,
+    "intent_accuracy": 0.23333333333333334,
+    "valid_json_rate": 1.0,
+    "exact_json_rate": 0.23333333333333334
+  },
+  "lora": {
+    "n": 60,
+    "intent_accuracy": 0.3,
+    "valid_json_rate": 0.6,
+    "exact_json_rate": 0.3
+  },
+  "heldout_examples": 60,
+  "lora_failures": 42
+}
