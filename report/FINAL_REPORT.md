@@ -91,7 +91,7 @@ The 256-word setting performed 13.33 percentage points better on this question s
 
 - **Model:** `Qwen/Qwen2.5-0.5B-Instruct`.
 - **GPU:** NVIDIA Tesla T4, 15,360 MiB VRAM, driver 580.82.07, CUDA 13.0.
-- **Workload:** identical 10 fixed prompts from `prompts.json`; greedy decoding (`do_sample=False)); maximum 128 new tokens. FP16 and bitsandbytes NF4 4-bit settings were benchmarked separately.
+- **Workload:** identical 10 fixed prompts from `prompts.json`; greedy decoding (`do_sample=False`); maximum 128 new tokens. FP16 and bitsandbytes NF4 4-bit settings were benchmarked separately.
  
 | Setting | Aggregate tokens/sec | Median prompt latency | Peak allocated VRAM | Peak reserved VRAM |
 |---|---:|---:|---:|---:|
